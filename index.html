@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/media-queries.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Travelo</title>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="header-logo">
+
+            <img class="header-logo-img" src="images/logo.png">
+
+        </div>
+
+        <nav class="header-menu" id="menu">
+
+            <ul>
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">About</a></li>
+
+                <li><a href="#">Destination</a></li>
+
+                <li><a href="#">Page</a></li>
+
+                <li><a href="#">Blog</a></li>
+
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+        <div class="control">
+
+        <button class="header-menu-burger" onclick="showMenu()"><i class="fa fa-bars"></i></button>
+
+        <div class="search-box"><i class="fa fa-search"></i></div>
+
+        </div>
+
+    </header>
+
+    <!-- MAIN -->
+
+    <main class="main">
+
+        <!-- BANNER -->
+
+        <section class="banner">
+
+        <h1 class="banner-title">Australia</h1>
+
+        <p class="banner-p">Pixel perfect design with awesome contents</p>
+
+        <button class="banner-button">Explore Now</button>
+
+        </section>
+
+        <!-- SEARCH -->
+
+        <section class="search-loc">
+
+            <h3 class="search-loc-title">Where you want to go?</h3>
+
+                <input class="search-inputs" type="text" placeholder="where to go?">
+
+                <input class="search-inputs" type="text" placeholder="where to go?">
+
+                <input class="search-inputs" type="text" placeholder="where to go?">
+
+            <button class="search-loc-button">Search<i class="fa fa-search"></i></button>
+
+        </section>
+
+        <!-- GALLERY -->
+
+        <section class="gallery">
+
+            <h1 class="gallery-title">Popular Destination</h1>
+
+            <p class="gallery-p"> 
+                Suffered alteration in some, 
+                by injected humor or good day randomised booth anim 
+                8-bit hella wolf moon beard words.  
+            </p>
+
+            <!-- IMAGES -->
+
+            <section class="gallery-images">
+
+                <img class="g-img" src="images/1.png">
+
+                <img class="g-img" src="images/2.png">
+
+                <img class="g-img" src="images/3.png">
+
+                <img class="g-img" src="images/4.png">
+
+                <img class="g-img" src="images/5.png">
+
+                <img class="g-img" src="images/6.png">
+
+            </section>
+
+        </section>
+
+        <!-- SUBSCRIBE -->
+
+        <section class="sub">
+
+            <div class="sub-txt">
+
+            <h1 class="sub-title">Subscribe Our Newsletter</h1>
+
+            <p class="sub-p">subscribe newsletter to get offer and about news place to discover.</p>
+             
+            </div>
+
+            <input class="sub-input" type="text" placeholder="Your mail">
+
+            <button class="sub-button">Subscribe<i class="fa fa-bell"></i></button>
+
+        </section>
+
+        <!-- VIDEO -->
+
+        <section class="video">
+
+            <h1 class="video-title">Enjoy Video</h1>
+
+            <button class="play"><i class="fa fa-play"></i></button>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <Section class="c-1">
+
+        <img class="footer-logo" src="images/footer_logo.png">
+
+        <p class="footer-p">Sth flora, 700/D kings road,<br>
+                            lane News York-1682<br>
+                            f10-367 826 2567<br>
+                            contact@carpenter.com<br>          
+        </p>
+
+        </Section>
+
+        <section class="c-2">
+
+        <h1 class="footer-title">Popular Destination</h1>
+
+        <section class="footer-menu">
+
+            <ul>
+
+                <li><a>indonsia</a></li>
+
+                <li><a>india</a></li>
+
+                <li><a>italy</a></li>
+
+                <li><a>french</a></li>
+
+                </ul>
+
+                <ul>
+
+                <li><a>America</a></li>
+
+                <li><a>Switzerland</a></li>
+
+                <li><a>Canad</a></li>
+
+                <li><a>England</a></li>
+
+            </ul>
+
+        </section>
+
+        </section>
+
+    </footer>
+
+    <!-- JAVA SCRIPT -->
+
+    <script>
+
+        function showMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("show");
+        }
+
+        ScrollReveal().reveal('.header-menu', {
+        duration: 1000,      // زمان  
+        origin: 'top',    // جهت  
+        distance: '50px',    // فاصله   
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.header-logo', {
+        duration: 1000,      
+        origin: 'left',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.search-box', {
+        duration: 1000,      
+        origin: 'right',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.banner-title', {
+        duration: 1000,      
+        origin: 'top',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.banner-p', {
+        duration: 1000,      
+        origin: 'bottom',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.search-loc-title', {
+        duration: 1000,      
+        origin: 'left',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.sub-title', {
+        duration: 1000,      
+        origin: 'left',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.sub-p', {
+        duration: 1000,      
+        origin: 'left',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.galley-title', {
+        duration: 1000,      
+        origin: 'top',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.gallery-p', {
+        duration: 1000,      
+        origin: 'bottom',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.g-img', {
+        duration: 1000,      
+        origin: 'center',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.video-title', {
+        duration: 1000,      
+        origin: 'top',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.footer-title', {
+        duration: 1000,      
+        origin: 'bottom',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.footer-p', {
+        duration: 1000,      
+        origin: 'bottom',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+    ScrollReveal().reveal('.footer-menu', {
+        duration: 1000,      
+        origin: 'bottom',    
+        distance: '50px',    
+        easing: 'ease-in-out',
+        reset: true        
+    });
+
+
+
+    </script>
+
+</body>
+
+</html>
