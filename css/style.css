@@ -122,14 +122,14 @@ a:hover {
 .banner-title{
     margin-top: 150px;
     font-weight: 800;
-    font-size: 100px;
+    font-size: 7vw;
     font-family: "Indie Flower", cursive;
     color: #ffffff;
 }
 
 .banner-p{
     font-weight: 400;
-    font-size: 40px;
+    font-size: 3vw;
     color: #ffffff;
     font-family: "Raleway", sans-serif;
 }
@@ -344,7 +344,7 @@ a:hover {
 .video-title{
     margin-top: 150px;
     font-weight: 800;
-    font-size: 100px;
+    font-size: 7vw;
     font-family: "Indie Flower", cursive;
     color: #ffffff;
     margin-top: 100px;
