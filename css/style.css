@@ -245,6 +245,7 @@ a:hover {
 }
 
 .g-img{
+    filter: brightness(70%);
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     transition:transform 0.3s ease, box-shadow 0.3s ease!important;
 }
@@ -252,6 +253,55 @@ a:hover {
 .g-img:hover{
     transform:translateY(-8px)!important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.item{
+    position: relative;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.popular-image-info{
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    z-index: 10000;
+    
+}
+
+.popular-image-info p{
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.popular-image-info a{
+    background-color: #1EC6B6;
+    font-size: 12px;
+    border-radius: 30px;
+    font-weight: 400;
+    padding: 7px 12px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.gallery-images .item:hover .popular-image-info p{
+    color: #FF4A52;
+    transition: 0.3s;
+    transform:translateY(-8px)!important;
+}
+
+.gallery-images .item:hover .popular-image-info a{
+    color: #fff;
+    background-color: #FF4A52;
+    transition: 0.3s;
+    transform:translateY(-8px)!important;
+}
+
+.gallery-images .item:hover{
+    transition:transform 0.3s ease;
 }
 
 /* SUB STYLE */
