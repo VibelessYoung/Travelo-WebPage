@@ -246,11 +246,11 @@ a:hover {
 
 .g-img{
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition:transform 0.3s ease, box-shadow 0.3s ease;
+    transition:transform 0.3s ease, box-shadow 0.3s ease!important;
 }
 
 .g-img:hover{
-    transform:translateY(-8px);
+    transform:translateY(-8px)!important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
