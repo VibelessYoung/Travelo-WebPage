@@ -58,6 +58,14 @@
     .search-loc-title{
         margin-top: 20px;
     }
+    .search-inputs{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .search-loc-button{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 @media (max-width:795.98px){
@@ -72,6 +80,14 @@
     }
     .sub-title{
         margin-top: 20px;
+    }
+    .sub-input{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .sub-button{
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 
